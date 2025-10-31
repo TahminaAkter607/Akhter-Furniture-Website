@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { products } from "../../utils/products";
-import ProductCard from "./productCard";
+import ProductCard from "./ProductCard";
 import btnIcon from "../../assets/button-icon.png";
 
 const Products = ({ headline }) => {

@@ -2,6 +2,7 @@ import React from "react";
 import bannerImg from "../../assets/banner.png"
 import Products from "./Products";
 
+
 const Shop = () => {
   return (
     <section className="min-h-screen">
