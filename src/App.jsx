@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Outlet } from "react-router-dom";
 
@@ -8,7 +9,7 @@ function App() {
       <main className="min-h-screen">
         <Outlet />
       </main>
-      <footer>Footer</footer>
+      <Footer/>
     </>
   );
 }
